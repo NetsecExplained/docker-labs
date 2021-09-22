@@ -7,5 +7,7 @@ Docker containers are very easy to work with. Each container within this repo is
 
 ### Build with Docker
 
-```docker build . [-t image-label]
-docker run [-d] [-p exposed_port:container_port] <image-label>```
+```
+docker build . [-t image-label]
+docker run [-d] [-p exposed_port:container_port] <image-label>
+```
