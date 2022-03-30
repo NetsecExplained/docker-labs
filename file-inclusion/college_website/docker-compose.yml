@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    restart: 'always'
+    depends_on:
+      - mariadb
+    restart: 'always'
+    ports:
+      - '8081:80'
+    links:
+      - mariadb
+  mariadb:
+    image: "mariadb:10.7"
+    restart: 'always'
+    volumes:
+      - ./database:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: "mysqlroot"
+      MYSQL_DATABASE: "college_website_db"
+      MYSQL_USER: "mysqluser"
+      MYSQL_PASSWORD: "mysqlpass"
