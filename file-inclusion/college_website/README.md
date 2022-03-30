@@ -10,3 +10,8 @@ Application as originally designed, only minor application patchs added for smoo
 # Build Commands
 * `docker-compose up --build`
 * Navigate to `http://<hostname>:8081/`
+
+# Challenge Flags
+There are two challenge flags to test your skills
+* Local file inclusion flag - Read the contents of the file: /var/www/html/admin/db_connect.php
+* RCE flag - Reverse shell the server to read the file: /var/www/flag.txt
