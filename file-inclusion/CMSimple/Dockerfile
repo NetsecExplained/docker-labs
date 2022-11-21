@@ -1,4 +1,4 @@
-FROM "php:5-apache"
+FROM "php:8.1.4-apache"
 
 EXPOSE 80 
 
