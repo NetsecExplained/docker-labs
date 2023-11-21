@@ -6,7 +6,6 @@ services:
     restart: 'always'
     depends_on:
       - mariadb
-    restart: 'always'
     ports:
       - '8081:80'
     links:
