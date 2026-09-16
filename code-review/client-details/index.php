@@ -39,8 +39,7 @@ exit();
 }
 else
 {
-echo "<script>alert('Invalid username or password');</script>";
-$extra="index.php";
+$extra="index.php?login_error=1";
 $host  = $_SERVER['HTTP_HOST'];
 $uri  = rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
 header("location:http://$host$uri/$extra");
@@ -69,6 +68,10 @@ echo "<script>alert('Email not register with us');</script>";
 }
 }
 
+if(isset($_GET['login_error']))
+{
+	echo "<script>alert('Invalid username or password');</script>";
+}
 ?>
 <!DOCTYPE html>
 <html>
