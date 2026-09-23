@@ -1,0 +1,9 @@
+#Options -MultiViews
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !.*\.(m|print)$
+RewriteRule ^(.*)$ index.php?qs=$1 [L]
+RewriteCond %{REQUEST_URI} ^(.*)\.(m|print)$
+RewriteRule ^(.*)\.(m)$ index.php?qs=$1&mobile=true [L]

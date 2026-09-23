@@ -1,0 +1,8 @@
+services:
+  web:
+    build:
+      context: ./docker
+    ports:
+      - "8000:80"
+    volumes:
+      - .:/var/www/html

@@ -1,0 +1,27 @@
+@import "common.css";
+#logo {display:block;max-width:58em;margin:0 auto;padding:1em 0;}
+#navwrapper {clear:both;padding:0;margin:0;}
+#navwrapper 
+#nav {max-width:62em;margin:0 auto;padding:1em 1.5em;font-family:Proxima Nova,Montserrat,Open Sans,sans-serif;}
+#nav ul                    {margin:0;padding:0;text-align:left;;list-style-type:none;font-size:1.1em;line-height:1.1em;}
+#nav li                   {display:inline-block;padding:0;}
+#nav li a                    {padding:0 0.8em;display:block;}
+#nav li a:link,
+#nav li a:visited            {color:#66ccff;font-variant:small-caps;}
+#nav li a:link#current,
+#nav li a:visited#current    {color:#ccc;text-decoration:underline;}
+#nav li a:hover,
+#nav li a:hover#current      {color:#66ffff;text-decoration:none;}
+
+#nav li ul      {background:#ccc;display:none;position:absolute;width:200px;z-index:100;padding:.2em .5em;font-size:.8em;margin:0;}
+#nav li:hover ul,
+#nav li li  {display:block;}
+#nav li:hover li a    {background:transparent;}
+#nav li ul a        {display:block;padding:0.5em 0.8em;;}
+#nav li ul a:hover,
+#nav li ul li:hover a {background:#666;color:#fff;text-decoration:none;}
+
+#main .products-col {width:98%;}
+#main .products-col .product {max-width:48%;display:inline-block;}
+#main .products-col .product .product-left {float:left;}
+#main .products-col .product .product-right {float;right;margin-left:50%;}

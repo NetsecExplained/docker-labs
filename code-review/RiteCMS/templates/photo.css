@@ -1,0 +1,57 @@
+body                      { font-family:verdana,arial,sans-serif; font-size:100.1%; color:#000; background:#fff; margin:0; padding:0; border:0; }
+img                       { border: 0px; }
+#photonavwrapper          { margin:0; padding:0; border-bottom:1px solid #bacbdf; background:#f7f7f7 url(templates/images/bg_subnav.png) repeat-x bottom; }
+#photonav                 { position:relative; margin-left:auto; margin-right:auto; padding:0; height:1.7em; line-height:1.7em; }
+#photonav div.left        { font-size:0.9em; position:absolute; top:0px; left:0px; width:40%; margin:0; padding:0; }
+#photonav div.middle      { font-size:0.9em; position:absolute; top:0px; left:40%; width:20%; margin:0; padding:0; text-align:center; float:left; }
+#photonav div.right       { font-size:0.9em; position:absolute; top:0px; right:0px; width:40%; margin:0; padding:0; text-align:right; }
+#photonav .small          { font-size:0.9em !important; }
+
+#prev                     { background: url(images/previous.png) no-repeat top left;  }
+#prev:hover               { background: url(images/previous.png) no-repeat bottom left; }
+#next                     { background: url(images/next.png) no-repeat top left;  }
+#next:hover               { background: url(images/next.png) no-repeat bottom left; }
+#enlarge                  { background: url(images/enlarge.png) no-repeat top left;  }
+#enlarge:hover            { background: url(images/enlarge.png) no-repeat bottom left; }
+#reduce                   { background: url(images/reduce.png) no-repeat top left;  }
+#reduce:hover             { background: url(images/reduce.png) no-repeat bottom left; }
+
+#photocontent             { text-align:left; margin-left:auto; margin-right:auto; padding-bottom:45px; }
+ul,p                      { font-size:0.9em; line-height:1.5em; text-align:justify; }
+#photo                    { margin-top:25px; border:1px solid black; }
+#flash                    { margin-top:25px; }
+#title                    { margin-bottom:0.3em; font-size:0.9em; text-align:center; }
+#subtitle                 { margin:0; padding:0; font-size:0.75em !important; text-align:center; }
+.small                    { font-size:0.69em !important; }
+.smallx                   { font-size:0.69em !important; color:#808080; }
+#comments                 { font-size:0.9em; line-height:1.45em; margin:40px 0px 20px 0px; padding:0; border-bottom:1px dotted #c0c0c0; }
+#comment-box              { margin:0; padding:20px 20px 0px 20px;  border-left:1px dotted #c0c0c0; }
+.comments                 { margin: 0px 0px 20px 0px; }
+p.author                  { margin: 0px 0px 3px 0px; padding:0; font-size:0.9em; line-height:1.45em; font-style:italic; }
+p.text                    { margin:0; padding:0; font-size:0.9em; line-height:1.45em; }
+p.admin                       { margin: 0px 0 0 0; padding: 3px 0 0 0; font-size:0.75em !important; }
+.comment-preview-hl       { margin:0px; color:red; font-weight:bold; }
+.comment-preview          { padding: 10px; border: 1px dotted red; }
+.caution                  { color:red; font-weight:bold; }
+#commentlink              { margin-top:20px; font-size:0.75em !important; text-align:center; }
+input.edit_button         { font-size:0.69em; width:5em; }
+input.delete_button       { font-size:0.69em; width:5em; color:red; }
+#commentform              { margin:0; padding:0; }
+#commentform span.smallx  { font-size:0.9em !important; }
+
+.pagination               { font-size:0.82em !important; }
+.pagination .current      { color:red; }
+
+a:link                    { color: #0000cc; text-decoration: none; }
+a:visited                 { color: #0000cc; text-decoration: none; }
+a:hover                   { color: #0000cc; text-decoration: underline; }
+a:active                  { color: #ff0000; text-decoration: none; }
+
+a.commentlink:link        { padding-left:15px; color: #0000cc; text-decoration: none;  font-weight: normal; background-image:url(images/comments.png); background-repeat:no-repeat; background-position: left; }
+a.commentlink:visited     { padding-left:15px; color: #0000cc; text-decoration: none; font-weight: normal; background-image:url(images/comments.png); background-repeat:no-repeat; background-position: left; }
+a.commentlink:hover       { padding-left:15px; color: #0000ff; text-decoration: underline; font-weight: normal; background-image:url(images/comments.png); background-repeat:no-repeat; background-position: left; }
+a.commentlink:active      { padding-left:15px; color: #ff0000; text-decoration: none; font-weight: normal; background-image:url(images/comments.png); background-repeat:no-repeat; background-position: left; }
+
+a.icon                    { text-decoration:none; }
+a.icon:hover span         { text-decoration:underline; }
+a.icon img                { margin:0px 5px -3px 0px; padding:0px; }
